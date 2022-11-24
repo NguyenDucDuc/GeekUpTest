@@ -1,0 +1,57 @@
+div.main {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    div.group-radio-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    div.group-button {
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        button {
+            padding: 8px 17px;
+            background-color: #bfbfbf;
+            border: none;
+            font-weight: bold;
+        }
+        button.active {
+            padding: 8px 17px;
+            background-color: white;
+            border: none;
+            color: #0080ff;
+        }
+    }
+    div.answer {
+        width: 100%;
+        box-shadow: 15px 15px 20px #cccccc;
+        height: 450px;
+        h2 {
+            margin: 0 4%;
+            padding-top: 30px;
+        }
+        p {
+            margin: 0 4%;
+            padding-top: 30px;
+            line-height: 1.6;
+        }
+    }
+    div.c3 {
+        width: 100%;
+    }
+    div.c4 {
+        img {
+            width: 90%;
+        } 
+        p {
+            line-height: 1.6;
+        }
+    }
+    
+}
